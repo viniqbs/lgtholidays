@@ -55,10 +55,16 @@ li {
     /* font-family: 'Roboto Slab', serif; */
 }
 
-.logo {
+/* .logo {
     width: 290px;
     height: 90px;
-    /* padding: 4px; */
+     padding: 4px; 
+} */
+
+.logo {
+    width: 313px;
+    height: 105px;
+    padding: 1px;
 }
 
 .logo-footer {
@@ -67,9 +73,15 @@ li {
 }
 
 .navbar-nav .nav-link {
+    font-family: "Poppins", sans-serif !important;
     font-size: larger;
     font-weight: bold;
+    font-size: 18px;
+    
+}
 
+.navbar-nav a:hover {
+    color: #ffffff80 !important;
 }
 
 .slider-star li {
@@ -87,12 +99,33 @@ li {
 } */
 
 
+
 nav {
     background-color: #ffffff;
 }
 
+.navbar-nav a {
+    color: white !important; 
+    font-family: 'serif'; 
+    font-size: 16px; 
+    font-weight: bold;
+}
+
 .carousel-item {
-    height: 86vh;
+    /* height: 86vh; */
+    height: 100vh;
+   
+}
+
+.carousel-item h1{
+ font-family: 'Playfair Display', serif;
+ font-size: 80px;
+ opacity: 1;
+ font-weight: 500;
+}
+
+.carousel-item h4{
+ font-family: 'cabin';
 }
 
 .object-contain {
@@ -136,7 +169,17 @@ nav {
 
 .carousel-caption {
     margin-top: 500px;
+    margin-bottom:150px;
 }
+
+.carousel-control-prev-icon {
+    margin-top: 50%; 
+}
+
+.carousel-control-next-icon{
+    margin-top: 50%;
+}
+
 
 .lgt-who-chooce {
     width: 250px;
@@ -313,6 +356,26 @@ nav {
     outline: 0;
     margin-left: 10px;
 }
+
+
+.banner-container {
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    background: transparent;
+}
+
+.carousel {
+    position: relative;
+    z-index: 0;
+}
+
 
 @media (min-width: 576px) {
     /* .subscription-img {
